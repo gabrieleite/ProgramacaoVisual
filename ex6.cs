@@ -3,11 +3,10 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
 
-    int soma = 0;
-    for (int c = 12; c <= 102; c++){
-      soma += c;
-      //Console.WriteLine(c);
-      c += 9;
+    double soma = 0;
+    for (double c = 1; c <= 10; c++){
+      soma += Math.Pow(c,2);
+      //Console.WriteLine(Math.Pow(c,2));
     }
     Console.WriteLine(soma);
   }
